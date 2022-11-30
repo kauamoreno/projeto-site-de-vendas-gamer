@@ -1,0 +1,79 @@
+main{
+    height: 1350px;
+}
+
+section{
+    height: 80px;
+}
+
+.div-marca a{
+    margin-bottom: 5px;
+}
+
+#carouselExampleInterval{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.promocoes{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background-color: darkorange;
+    width: 920px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+
+.text-promocoes{
+    color: white;
+}
+
+.lista-p{
+    line-height: 10px;
+}
+
+/*Para o Bootstrap não distorcer*/
+h1{
+    margin-bottom: 0px;    
+}
+footer h2{
+    line-height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 920px){
+    .promocoes{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1115px){
+    #carouselExampleInterval{
+        width: 100%;
+    }
+}
+@media (max-width: 951px){
+    main{
+        height: 1750px;
+    }
+}
+@media (max-width: 930px){
+    main{
+        height: 1800px;
+    }
+}
+@media (max-width: 830px){
+    main{
+        height: 1700px;
+    }
+}
+@media (max-width: 634px){
+    main{
+        height: 2100px;
+    }
+}
+

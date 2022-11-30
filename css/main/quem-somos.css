@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.meio{ 
+    display: flex;
+    flex-direction: column;
+    width: 1150px;
+    padding: 0PX 50px 50px 50px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+}
+
+.text-principal{
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.linha{
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+    width: 10px;
+    margin-right: 20px;
+}
+
+.text, .text-principal{
+    padding: 20px 0px 20px 0px;
+    text-align: justify;
+}
+.frase-motivacional{
+    background-color: darkorange;
+    height: 50px;
+    margin: 20px 0px 0px 0px;
+
+    /* Centraliza o objeto no centro do elemento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-frase-motivacional{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}    
+
+#parallax{
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    background-image: url(../../imagens/quem-somos/Stock.png);
+    width: 100%;
+    height: 350px; 
+}
+
+@media (max-width: 618px){
+    .meio{
+        width: 100%;
+    }
+    main h2{
+        font-size: 24px;
+    }
+    main img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 770px){
+    main h2{
+        font-size: 28px;
+    }
+    #parallax{
+        height: 260px;
+    }
+}
+
+@media (max-width: 532px){
+    .frase-motivacional{
+        height: 70px;
+    }
+    #parallax{
+        height: 230px;
+    }
+}
+

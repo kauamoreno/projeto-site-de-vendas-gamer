@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/header-footer-identidade.css">
+    <link rel="stylesheet" href="css/main/produtos.css">
+    <link rel="stylesheet" href="css/main/index.css">
+    <link rel="shortcut icon" href="imagens/header-footer/logo-75x75.png" type="image/x-icon"> 
+    <title>Home</title>
+</head>
+<body>
+    <header> <!--Inicio do cabeçalho-->
+        <div class="espaco-header"></div>
+        <section class="secao"> <!--Inicio da seção do conteúdo do cabeçalho-->
+            <div class="div-marca">
+                <!--Logo da marca-->
+                <a class="link-header" href="index.html"><img src="imagens/header-footer/logo-600x600.png" width="80px" alt=""></a>
+                <h1>Stock Games</h1>
+            </div>
+            <form class="form-pesquisa" action=""> <!--Inicio da área de pesquisa-->
+                <input class="input-text-pesquisa" type="text" placeholder="Pesqusa...">
+                <button class="button-pesquisa">Pesquisar</button>
+            </form> <!--Fim da área de pesquisa-->
+            <nav> <!--Inicio da área de navegação-->
+                <a class="link-header" href="produtos.html">Produtos</a>
+                <a class="link-header" href="quem-somos.html">Quem somos</a>
+                <a class="link-header" style="color: #008000;" href="index.html">Home</a>
+            </nav> <!--Fim da área de navegação-->
+        </section> <!--FIm da seção do conteúdo do cabeçalho-->
+        <div class="espaco-header"></div>
+    </header> <!--Fim do cabeçalho-->
+
+    <main> <!--Inicio do Main-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"> <!--Inicio do carrosel de imagens - Bootstrap-->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <!--Imagem 1 carrosel-->
+                <img src="imagens/index-main/banner.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <!--Imagem 2 carrosel-->
+                <img src="imagens/index-main/anuncio.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <!--Imagem 3 carrosel-->
+                <img src="imagens/index-main/black-friday.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            
+            <!--SETINHAS PARA PASSAR O CARROSEL-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div> <!--Fim do carrosel de imagens - Bootstrap-->
+        <!-- <img class="imagem-cpu" src="_imagens/index-main/cpu.jpg" alt=""> -->
+
+        <div class="promocoes" data-aos="fade-right">
+            <h2 class="text-promocoes">Promoções</h2>
+        </div>
+        <ul class="product-list" data-aos="fade-right"> <!--Inicio da vitrine 1 em linha com 3 produtos-->
+            <li class="product-item"> <!--Produto 1-->
+                <a href="#" target="_blank" class="product-link"> <!--link do produto 1-->
+                    <figure class="product-info">
+                        <div class="product-info-img">
+                            <!--Imagem do produto 1-->
+                            <img src="imagens/produtos/cpu-produto.webp" alt="description image">
+                        </div>
+                        <figcaption class="product-info-description"> <!--Inicio da área do titulo e estrelas do produto 1-->
+                            <h2 class="title">CPU i5</h2>
+                            <p class="description">8gb de memória ram, HD de 1tb e processador i5.</p>
+                                <ul class="star-ranking">
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li class="qtd-votes">
+                                        </span>(50)</span>
+                                    </li>
+                                </ul>
+                        </figcaption> <!--Fim da área do titulo e estrelas do produto 1-->
+                        <div class="price-box"> <!--Inicio da área de preço do produto 1-->
+                            <div class="price">
+                                <div>
+                                    <del>R$2900,00</del>
+                                    <ins class="d-block">R$2500,00</ins>
+                                </div>
+                                <span class="price-info">4x de 624,99</span>
+                            </div>
+                            <button href="#" class="btn btn-buy">Buy now <i class="fas fa-arrow-right"></i></button>
+                        </div> <!--Fim da área de preço do produto 1-->
+                        </div>
+                    </figure>
+                </a> <!--Fim do link do produto 1-->
+            </li> <!--Fim do produto 1-->
+            <li class="product-item"> <!--Produto 2-->
+                <a href="#" target="_blank" class="product-link"> <!--Link do produto 2-->
+                    <figure class="product-info">
+                        <div class="product-info-img">
+                            <!--Imagem do produto 2-->
+                            <img src="imagens/produtos/GOW.webp" alt="description image">
+                        </div>
+                        <figcaption class="product-info-description"> <!--Inicio da área do titulo e estrelas do produto 2-->
+                            <h2 class="title">Jogo God Of War</h2>
+                            <p class="description">Game da Play Station - edição de lançamento</p>
+                                <ul class="star-ranking">
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li><img src="imagens/produtos/estrela/amarela.png">
+                                    </li>
+                                    <li class="qtd-votes">
+                                        </span>(47)</span>
+                                    </li>
+                                </ul>
+                        </figcaption> <!--Fim da área do titulo e estrelas do produto 2-->
+                        <div class="price-box"> <!--Inicio da área de preço do produto 2-->
+                            <div class="price"> 
+                                <div>
+                                    <del>R$250,00</del>
+                                    <ins class="d-block">R$169,99</ins>
+                                </div>
+                                <span class="price-info">4x de R$ 42,50</span>
+                            </div>
+                            <button href="#" class="btn btn-buy">Buy now <i class="fas fa-arrow-right"></i></button>
+                        </div> <!--Fim da área de preço do produto 2-->
+                        </div>
+                    </figure>
+                </a> <!--Fim do link do produto 2-->
+            </li> <!--Fim do produto 2-->
+            <li class="product-item"> <!--Produto 3-->
+                <a href="#" target="_blank" class="product-link"> <!--Link do produto 3-->
+                    <figure class="product-info">
+                        <div class="product-info-img">
+                            <!--Imagem do produto 3-->
+                            <img src="imagens/produtos/water-coolerl.jpg" alt="description image">
+                        </div>
+                        <figcaption class="product-info-description"> <!--Inicio da área do titulo e estrelas do produto 3-->
+                            <h2 class="title">Placa de vídeo 4gb</h2>
+                            <p class="description">Produto de 2022 com ótima qualidade e perfeito para jogos em alta resolução</p>
+                            <ul class="star-ranking">
+                                <li><img src="imagens/produtos/estrela/amarela.png">
+                                </li>
+                                <li><img src="imagens/produtos/estrela/amarela.png">
+                                </li>
+                                <li><img src="imagens/produtos/estrela/amarela.png">
+                                </li>
+                                <li><img src="imagens/produtos/estrela/cinza.png">
+                                </li>
+                                <li><img src="imagens/produtos/estrela/cinza.png">
+                                </li>
+                                <li class="qtd-votes">
+                                    </span>(13)</span>
+                                </li>
+                            </ul>
+                        </figcaption> <!--Fim da área do titulo e estrelas do produto 3-->
+                        <div class="price-box"> <!--Inicio da área de preço do produto 3-->
+                            <div class="price">
+                                <div>
+                                    <del>R$1300,00</del>
+                                    <ins class="d-block">R$899,99</ins>
+                                </div>
+                                <span class="price-info">4x de R$ 225,0</span>
+                            </div>
+                            <button href="#" class="btn btn-buy">Buy now <i class="fas fa-arrow-right"></i></button>
+                        </div> <!--Fim da área de preço do produto 3-->
+                        </div>
+                    </figure>
+                </a> <!--Fim do link do produto 3-->
+            </li> <!--Fim do produto 3-->
+        </ul> <!--fim da vitrine em linha com 3 produtos-->
+    </main> <!--Fim do Main-->
+
+    <footer> <!--Inicio do rodapé-->
+        <div class="fechamento-footer-green"></div>
+        <div class="espaco"></div>
+        <div class="div-footer-content"> <!--Inicio do conteudo do rodapé-->
+            <form class="form-login" action=""> <!--Inicio da área de login-->
+                <label class="label-login" for="">Login</label>
+                <input class="input-text-login" type="text" placeholder="Email">
+                <input class="input-senha-login" type="password" placeholder="Senha">
+                <input class="input-submit-login" type="submit" value="Logar">
+            </form> <!--Fim da área de login-->
+            <div class="div-contact"> <!--Inicio da área de contatos-->
+                <h2 class="titulo-contact-us">Contact us</h2>
+                <p>• Email: amaralka61@gmail.com</p>
+                <p>• Telefone: 91111-1111</p>
+                <p>• WhatsApp: 92222-2222</p>
+            </div> <!--Fim da área de contatos-->
+            <div class="redes-sociais-footer"> <!--Inicio das imagens com links para as redes sociais-->
+                <a href="https://www.instagram.com" target="_blank"><img width="35px" src="imagens/header-footer/instagram.png" alt=""></a>
+                <a href="https://pt-br.facebook.com" target="_blank"><img width="35px" src="imagens/header-footer/facebook.png" alt=""></a>
+                <a href="https://twitter.com/i/flow/login" target="_blank"><img width="35px" src="imagens/header-footer/twitter.png" alt=""></a>
+            </div> <!--Fim das imagens com links para as redes sociais-->
+        </div> <!--Fim do conteúdo do rodapé-->
+        <div class="espaco"></div>
+    </footer> <!--Fim do rodapé-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
