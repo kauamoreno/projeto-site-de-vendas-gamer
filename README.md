@@ -27,7 +27,7 @@ Clique nas imagens para se redirecionar para os protótipos no Figma.
 <br/>
 
 <div style="display: inline_block">
-  <ahref="https://www.figma.com/file/DBqNrJXkredYRWMHHd3Yb1/Desktop?t=eSUza7qhu2CuEF9M-0">
+  <a href="https://www.figma.com/file/DBqNrJXkredYRWMHHd3Yb1/Desktop?t=eSUza7qhu2CuEF9M-0">
     <img height="300px" src="https://user-images.githubusercontent.com/119445003/205411975-8c818e3b-3b89-4644-b6a2-ef9c4bab4790.png">
   </a>
 
