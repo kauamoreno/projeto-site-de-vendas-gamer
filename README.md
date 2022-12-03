@@ -27,11 +27,11 @@ Clique nas imagens para se redirecionar para os protótipos no Figma.
 <br/>
 
 <div style="display: inline_block">
-  <a href="https://www.figma.com/file/DBqNrJXkredYRWMHHd3Yb1/Desktop?t=eSUza7qhu2CuEF9M-0">
+  <a target="_blank" href="https://www.figma.com/file/DBqNrJXkredYRWMHHd3Yb1/Desktop?t=eSUza7qhu2CuEF9M-0">
     <img height="300px" src="https://user-images.githubusercontent.com/119445003/205411975-8c818e3b-3b89-4644-b6a2-ef9c4bab4790.png">
   </a>
 
-  <a href="https://www.figma.com/file/VPyv3vY4RZF94NUlbrr4cG/Mobile?t=eSUza7qhu2CuEF9M-0">
+  <a target="_blank" href="https://www.figma.com/file/VPyv3vY4RZF94NUlbrr4cG/Mobile?t=eSUza7qhu2CuEF9M-0">
     <img height="300px" src="https://user-images.githubusercontent.com/119445003/205411982-72f154a9-d00f-4cc5-b39e-b353002e6a75.png">
   </a>
 </div>
